@@ -1,0 +1,23 @@
+body {
+    font: montserrat;
+}
+
+.green {
+    background-color: green;
+    min-height: 100px;
+}
+
+.red {
+    background-color: red;
+    min-height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    min-height: 100px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px; 
+}
