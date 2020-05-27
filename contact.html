@@ -40,7 +40,7 @@
         </div>
     </nav>
 
-    <div class="conatiner p-3 my-3 border">
+    <div class= "container my-container">
         <h1 class="display-4" style="padding-bottom: 40px"> Contact</h1>
 
         <div class="row">
@@ -69,32 +69,27 @@
                                 on LinkedIn</a> </td>
                     </tr>
             </div>
-            <div class="col-12">
+            <div class="col-9">
+                <h2>Send Me a Message!</h2>
 
-                <div class="container">
-                    <h2>Send Me a Message!</h2>
+                <form action="/action_page.php">
 
-                    <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="First Last" name="name">
+                    </div>
 
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="name" class="form-control" id="name" placeholder="First Last" name="name">
-                        </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
 
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="msg">Message: </label>
-                            <textarea class="form-control" id="msg" placeholder="Type Message Here"
-                                name="message"> </textarea>
-                        </div>
-                </div>
-
-
-                <button type="submit" class="btn btn-dark mb-2" style="margin-left: 425px;">Submit</button>
+                    <div class="form-group">
+                        <label for="msg">Message: </label>
+                        <textarea class="form-control" id="msg" placeholder="Type Message Here"
+                            name="message"> </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark mb-2" style="margin-left: 425px;">Submit</button>
                 </form>
             </div>
         </div>
