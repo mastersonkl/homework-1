@@ -4,5 +4,6 @@ body {
 
 .my-container {
 
-background-color: rgba(84, 164, 190, 0.671)
+background-color: rgba(84, 164, 190, 0.671);
+min-height: 100vh;
 }
